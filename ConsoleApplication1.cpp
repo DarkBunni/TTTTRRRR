@@ -16,7 +16,7 @@ int main()
 	cout << "Please enter the following for your personalized adventure\n";
 	cout << "Enter а number: ";
 	cin >> adventurers;
-	cout << "Enter а number. sma 11 er than the fi rst: ";
+	cout << "Enter а number. smaller than the first: ";
 	cin >> killed;
 	survivors = adventurers - killed;
 	cout << "Enter your 1 ast name: ";
